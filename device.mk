@@ -12,7 +12,8 @@ $(call inherit-product, vendor/xiaomi/thor/thor-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    SettingsProviderResThor
+    SettingsProviderResThor \
+    WifiResThor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
