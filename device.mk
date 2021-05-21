@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/thor/thor-vendor.mk)
 
+# Overlay
+PRODUCT_PACKAGES += \
+    SettingsProviderResThor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
