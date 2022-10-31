@@ -12,6 +12,7 @@ $(call inherit-product, vendor/xiaomi/thor/thor-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
+    ApertureResThor \
     FrameworksResThor \
     SettingsProviderResThor \
     SystemUIResThor \
