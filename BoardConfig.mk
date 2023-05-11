@@ -11,3 +11,6 @@ include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 include vendor/xiaomi/thor/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/thor
+
+# Screen density
+TARGET_SCREEN_DENSITY := 560
