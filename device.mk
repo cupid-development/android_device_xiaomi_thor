@@ -14,6 +14,7 @@ $(call inherit-product, vendor/xiaomi/thor/thor-vendor.mk)
 PRODUCT_PACKAGES += \
     ApertureResThor \
     FrameworksResThor \
+    NfcResThor \
     SettingsProviderResThor \
     SystemUIResThor \
     WifiResThor
