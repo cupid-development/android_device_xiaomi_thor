@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
     FrameworksResThor \
     NfcResThor \
     SettingsProviderResThor \
+    SettingsResThor \
     SystemUIResThor \
     WifiResThor
 
