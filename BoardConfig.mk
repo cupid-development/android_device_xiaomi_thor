@@ -17,7 +17,8 @@ device_second_stage_modules := \
     goodix_fod.ko \
     qcom_pm8008-regulator.ko \
     fts_touch_spi.ko \
-    aw8697-haptic.ko
+    aw8697-haptic.ko \
+    stmvl53l5.ko
 
 device_vendor_dlkm_exclusive_modules := \
     cs35l41_dlkm.ko
