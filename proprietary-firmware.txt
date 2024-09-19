@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from thor V816.0.7.0.ULACNXM
+## are from thor V816.0.8.0.ULACNXM
 
 abl.img;AB
 aop.img;AB
