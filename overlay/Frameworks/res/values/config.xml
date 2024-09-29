@@ -400,11 +400,4 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -42 V 108 H 42 V 0 H 0 Z</string>
-
-    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
-    <integer-array name="config_udfps_sensor_props" translatable="false">
-        <item>720</item>
-        <item>2480</item>
-        <item>134</item>
-    </integer-array>
 </resources>
