@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/thor/thor-vendor.mk)
 
+# Camera
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.camera.concurrent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.concurrent.xml
+
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureResThor \
