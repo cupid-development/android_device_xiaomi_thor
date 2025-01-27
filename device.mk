@@ -10,6 +10,12 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/thor/thor-vendor.mk)
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/mixer_paths_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml \
+    $(LOCAL_PATH)/audio/resourcemanager_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml \
+    $(LOCAL_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
+
 # Camera
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.concurrent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.concurrent.xml
