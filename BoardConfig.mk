@@ -12,6 +12,9 @@ include vendor/xiaomi/thor/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/thor
 
+# Audio
+AUDIO_FEATURE_ENABLED_ULTRASOUND_PROXIMITY := true
+
 # Kernel
 device_vendor_dlkm_exclusive_modules := \
     ispv3_mfd_dev.ko \
