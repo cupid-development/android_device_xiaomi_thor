@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from thor V816.0.14.0.ULACNXM
+# All unpinned blobs below are extracted from thor OS2.0.12.0.VLACNXM
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/Forte_acdb_cal.acdb
